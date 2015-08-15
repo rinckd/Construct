@@ -1,12 +1,12 @@
 // Author: Brandon Pelfrey
 // (C) 2012
 
-#include "construct/ConstructBase.h"
-#include "construct/ConstructField.h"
-#include "construct/ConstructArithmetic.h"
-#include "construct/ConstructAlgebra.h"
-#include "construct/ConstructCalculus.h"
+#include "ConstructBase.h"
+#include "ConstructField.h"
+#include "ConstructArithmetic.h"
+#include "ConstructAlgebra.h"
+#include "ConstructCalculus.h"
 
-#include "construct/ConstructDomain.h"
-#include "construct/ConstructGrid.h"
-#include "construct/ConstructUtils.h"
+#include "ConstructDomain.h"
+#include "ConstructGrid.h"
+#include "ConstructUtils.h"

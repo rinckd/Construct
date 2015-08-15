@@ -1,10 +1,11 @@
 #ifndef ConstructBase_H
 #define ConstructBase_H
-#include <Eigen/Dense>
+#include "../Eigen/Dense"
 #include <memory>
 #include <stdexcept>
 
-namespace Construct {
+namespace Construct
+{
   //! Floating point precision
   typedef float real;
 
