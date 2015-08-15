@@ -1,7 +1,7 @@
 #ifndef ConstructCalculus_h
 #define ConstructCalculus_h
-#include "construct/ConstructAlgebra.h"
-#include "construct/ConstructArithmetic.h"
+#include "ConstructAlgebra.h"
+#include "ConstructArithmetic.h"
 namespace Construct {
 
 //! Gradient Operator

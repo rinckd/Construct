@@ -1,6 +1,6 @@
 #ifndef ConstructArithmetic_h
 #define ConstructArithmetic_h
-#include "construct/ConstructField.h"
+#include "ConstructField.h"
 namespace Construct {
 
 // Addition

@@ -1,8 +1,11 @@
 #ifndef ConstructDomain_h
 #define ConstructDomain_h
-#include "construct/ConstructBase.h"
-namespace Construct {
-struct Domain {
+#include "ConstructBase.h"
+
+namespace Construct
+{
+struct Domain
+{
 	int res[3]; //! Domain resolution
 	Vec3 bmin, bmax; //! AABB minimal and maximal corner positions
 	Vec3 extent, H, Hinverse; //! precomputed size of the box and cell size/inverse size

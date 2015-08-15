@@ -1,6 +1,6 @@
 #ifndef ConstructAlgebra_h
 #define ConstructAlgebra_h
-#include "construct/ConstructField.h"
+#include "ConstructField.h"
 namespace Construct {
 
 /////////////////////////////////////

@@ -2,9 +2,10 @@
 #define ConstructField_h
 
 #include <memory>
-#include "construct/ConstructBase.h"
+#include "ConstructBase.h"
 
-namespace Construct {
+namespace Construct
+{
 
     template<typename>
     struct FieldInfo;

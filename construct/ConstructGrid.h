@@ -1,12 +1,14 @@
 #ifndef ConstructGrid_h
 #define ConstructGrid_h
-#include "construct/ConstructField.h"
-#include "construct/ConstructDomain.h"
+#include "ConstructField.h"
+#include "ConstructDomain.h"
 #include <iostream>
-namespace Construct {
+namespace Construct
+{
 
 template<typename T>
-struct ConstructGrid : public ConstructFieldNode<T> {
+struct ConstructGrid : public ConstructFieldNode<T>
+{
 	//! Domain definition for this grid
 	Domain domain;
 
@@ -37,7 +39,8 @@ struct ConstructGrid : public ConstructFieldNode<T> {
 	}
 	
   //! Guaranteed Safe Get (For when there is no possibility of accessing outside)
-  inline T gets(int i, int j, int k) const {
+  inline T gets(int i, int j, int k) const
+  {
 		return data[ index(i,j,k) ];
 	}
 

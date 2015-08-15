@@ -1,6 +1,6 @@
 #ifndef ConstructUtils_h
 #define ConstructUtils_h
-#include "construct/ConstructField.h"
+#include "ConstructField.h"
 namespace Construct {
 
 struct MaskField : public ScalarFieldNode {

@@ -4,24 +4,15 @@ include_directories('../../')
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-    construct/construct/Construct.h
-    construct/construct/ConstructAlgebra.h
-    construct/construct/ConstructArithmetic.h
-    construct/construct/ConstructBase.h
-    construct/construct/ConstructCalculus.h
-    construct/construct/ConstructDomain.h
-    construct/construct/ConstructField.h
-    construct/construct/ConstructGrid.h
-    construct/construct/ConstructUtils.h
-    construct/Construct.h
-    construct/ConstructAlgebra.h
-    construct/ConstructArithmetic.h
-    construct/ConstructBase.h
-    construct/ConstructCalculus.h
-    construct/ConstructDomain.h
-    construct/ConstructField.h
-    construct/ConstructGrid.h
-    construct/ConstructUtils.h
+    Construct/Construct.h
+    Construct/ConstructAlgebra.h
+    Construct/ConstructArithmetic.h
+    Construct/ConstructBase.h
+    Construct/ConstructCalculus.h
+    Construct/ConstructDomain.h
+    Construct/ConstructField.h
+    Construct/ConstructGrid.h
+    Construct/ConstructUtils.h
     Eigen/src/Cholesky/LDLT.h
     Eigen/src/Cholesky/LLT.h
     Eigen/src/Cholesky/LLT_MKL.h
